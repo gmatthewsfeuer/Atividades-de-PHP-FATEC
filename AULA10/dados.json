@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "GUSTAVO",
+    "sexo": "M",
+    "idade": 20,
+    "salario": 1477.00,
+    "casado": false
+  },
+
+  {
+    "nome": "MATHEUS",
+    "sexo": "M",
+    "idade": 19,
+    "salario": 1500,
+    "casado": true
+  }
+]
