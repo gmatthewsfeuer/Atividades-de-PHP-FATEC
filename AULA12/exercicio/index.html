@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação</title>
+</head>
+<body>
+  <main>
+    <form action="validacao.php" method="post">
+      <label for="name">
+        Nome:
+        <input type="text" name="name" id="name" required>
+      </label><br>
+      <label for="email">
+        E-mail:
+        <input type="email" name="email" id="email" required>
+      </label><br>
+      <label for="type">
+        Tipo:
+        <select name="type" id="type" required>
+          <option value="JURIDICA">JURÍDICA</option>
+          <option value="FISICA">FÍSICA</option>
+        </select>
+      </label><br>
+      <label for="cpf">
+        CPF:
+        <input type="text" name="cpf" id="cpf" maxlength="14" required>
+      </label><br>
+      <button>Validar</button>
+    </form>
+  </main>
+</body>
+</html>
