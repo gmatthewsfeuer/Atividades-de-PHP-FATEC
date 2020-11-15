@@ -1,0 +1,39 @@
+* {
+  transition: all 0.3s;
+}
+
+body {
+  background: #222 !important;
+
+  color: #FFF;
+}
+
+main {
+  height: 100vh;
+}
+
+form {
+  background: rgb(44, 44, 44);
+}
+
+legend {
+  font-weight: bold;
+}
+
+table tbody tr {
+  background: #FFF;
+}
+
+table tbody tr:hover {
+  background: rgb(200, 200, 200);
+}
+
+.inativo {
+  background: rgb(197, 90, 90);
+
+  color: #FFF;
+}
+
+.inativo:hover {
+  background: rgb(146, 65, 65);
+}
